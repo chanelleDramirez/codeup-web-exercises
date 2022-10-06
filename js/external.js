@@ -2,25 +2,23 @@
 
 console.log('Hello from JavaScript!');
 
-alert("Good Morning Xerxes");
+alert("Welcome to my Website");
 
-// the following line will show the OK/CANCEL confirm dialog
-var confirmed = confirm('Are you sure you want to do XYZ?');
-console.log(confirmed); // will be either true or false
 
-var userInput = prompt('Please type something:');
-console.log('The user entered: ' + userInput);
-
-console.log('Hello from JavaScript!');
-
-alert('Welcome to my Website!');
 
 var userInput = prompt('Please enter your favorite color:');
 console.log('the color you entered is my favorite color too: ' + userInput);
 
-var userInput = prompt('Please use a number:');
+alert("Great, that's my favorite color too!");
+
+var userInput = prompt('Please enter a number between 1 and 5:');
 console.log('Number entered: ' + userInput);
 
-alert("Information you entered.");
+alert("Awesome choice!");
+
+alert("All information received.");
+
+
+
 
 
