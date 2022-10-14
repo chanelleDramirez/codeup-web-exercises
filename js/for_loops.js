@@ -24,10 +24,19 @@
 
 
 4.
-function pyramidNumbers(){
-    for (let x = 1; x < 10; x++) {
-        console.log(Array(x+1).join(x))
+//function pyramidNumbers(){
+    //for (let x = 1; x < 10; x++) {
+        //console.log(Array(x+1).join(x))
+    //}
+//}
+
+//pyramidNumbers()
+
+5.
+function byFive(num) {
+    for ( var i = 100; i >= 1; i--) {
+        if (i % 5 == 0)
+            console.log(num + i )
     }
 }
-
-pyramidNumbers()
+byFive(0)
