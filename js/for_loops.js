@@ -10,15 +10,24 @@
 
 
 //3.
-function random() {
-    for (var i = 20; i <= 30; i++) {
-        if (i % 2 == 0) {
-            console.log(' Even numbers only ' + i );
-        }
-            else {
-            console.log(' Odd numbers only '  + i  );
-        }
+//function random() {
+    //for (var i = 20; i <= 30; i++) {
+        //if (i % 2 == 0) {
+            //console.log(' Even numbers only ' + i );
+        //}
+            //else {
+           // console.log(' Odd numbers only '  + i  );
+       // }
+   // }
+//}
+//random('Even numbers only') + ('Odd numbers only')
+
+
+4.
+function pyramidNumbers(){
+    for (let x = 1; x < 10; x++) {
+        console.log(Array(x+1).join(x))
     }
 }
-random('Even numbers only') + ('Odd numbers only')
 
+pyramidNumbers()
