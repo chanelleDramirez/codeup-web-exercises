@@ -1,4 +1,5 @@
 "use strict"
+//For Loop Exercises
 //2.
 //function showMultiplicationTable(num){
     //for (var i = 1;  i <= 10; i++) {
@@ -23,7 +24,7 @@
 //random('Even numbers only') + ('Odd numbers only')
 
 
-4.
+//4.
 //function pyramidNumbers(){
     //for (let x = 1; x < 10; x++) {
         //console.log(Array(x+1).join(x))
@@ -32,11 +33,15 @@
 
 //pyramidNumbers()
 
-5.
-function byFive(num) {
-    for ( var i = 100; i >= 1; i--) {
-        if (i % 5 == 0)
-            console.log(num + i )
-    }
-}
-byFive(0)
+//5.
+//function byFive(num) {
+    //for ( var i = 100; i >= 1; i--) {
+        //if (i % 5 == 0)
+            //console.log(num + i )
+   // }
+//}
+//byFive(0)
+
+
+
+
