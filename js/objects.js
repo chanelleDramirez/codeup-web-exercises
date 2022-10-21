@@ -2,7 +2,7 @@
     "use strict";
 
     /**
-     * TODO:
+     * TODO 1:
      * Create an object with firstName and lastName properties that are strings
      * with your first and last name. Store this object in a variable named
      * `person`.
@@ -21,7 +21,7 @@
 
 
     /**
-     * TODO:
+     * TODO 2:
      * Add a sayHello method to the person object that returns a greeting using
      * the firstName and lastName properties.
      * console.log the returned message to check your work
@@ -36,7 +36,7 @@
    // person.sayHello();
 
 
-    /** TODO:
+    /** TODO 3:
      * HEB has an offer for the shoppers that buy products amounting to
      * more than $200. If a shopper spends more than $200, they get a 12%
      * discount. Write a JS program, using conditionals, that logs to the
@@ -50,34 +50,34 @@
      * and console.log the relevant messages for each person
      */
 
-     var shoppers = [
-         {name: 'Cameron', amount: 180},
-         {name: 'Ryan', amount: 250},
-         {name: 'George', amount: 320}
-     ];
-     var amount = prompt('Did shopper spend more than $200?');
-     if ('Cameron' + 'amount spent: 180') {
-        alert( 'Shopper did not spend more than $200')
-     }else ('No discount will be applied')
+    // var shoppers = [
+       //  {name: 'Cameron', amount: 180},
+        // {name: 'Ryan', amount: 250},
+        // {name: 'George', amount: 320}
+    // ];
+    // var amount = prompt('Did shopper spend more than $200?');
+   //  if ('Cameron' + 'amount spent: 180') {
+        //alert( 'Shopper did not spend more than $200')
+    // }else ('No discount will be applied')
 
-    if ('Ryan' + 'amount spent: 250' + 'Discount of 12%' + 'new total: 220'){
-        alert('Shopper spent more than $200.')
-    }else('Discount of 12% will be applied to overall total')
+    //if ('Ryan' + 'amount spent: 250' + 'Discount of 12%' + 'new total: 220'){
+      //  alert('Shopper spent more than $200.')
+   // }else('Discount of 12% will be applied to overall total')
 
-    if ('George' + 'amount spent: 320' + 'Discount of 12%' + 'new total: 281.60'){
-        alert('Shopper spent more than $200.')
-    }else('Discount of 12% will be applied to overall total');
+    //if ('George' + 'amount spent: 320' + 'Discount of 12%' + 'new total: 281.60'){
+      //  alert('Shopper spent more than $200.')
+   // }else('Discount of 12% will be applied to overall total');
 
-    console.log('Cameron' + 'No discount will be applied');
-    console.log('Ryan' + 'Discount of 12% will be applied to overall total');
-    console.log('George' + 'Discount of 12% will be applied to overall total');
+    //console.log('Cameron' + 'No discount will be applied');
+   // console.log('Ryan' + 'Discount of 12% will be applied to overall total');
+  //  console.log('George' + 'Discount of 12% will be applied to overall total');
 
-shoppers.forEach(name(amount))
-    shoppers.amount.forEach(name(amount))
-    console.log(amount);
+//shoppers.forEach(name(amount))
+  //  shoppers.amount.forEach(name(amount))
+   // console.log(amount);
 
 
-    /** TODO:
+    /** TODO 4:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
      * property. The author property should be an object with properties
@@ -90,8 +90,48 @@ shoppers.forEach(name(amount))
      * > console.log(books[0].author.lastName) // "Adams"
      */
 
+    let books = [
+        {
+            Book: 1,
+            Title: "Twilight",
+            Author: "Stephenie Meyer"
+        },
+        {
+            Book: 2,
+            Title: "New Moon",
+            Author: "Stephenie Meyer"
+
+        },
+        {
+            Book: 3,
+            Title: "Eclipse",
+            Author: "Stephenie Meyer"
+        },
+        {
+            Book: 4,
+            Title: "Breaking Dawn Part 1",
+            Author: "Stephenie Meyer"
+        },
+        {
+            Book: 5,
+            Title: "Breaking Dawn Part 2",
+            Author: "Stephenie Meyer"
+        }
+
+    ];
+
+   // books.forEach(function(book {Author:{firstName:string, lastName:string}, Title:string} );
+
+
+
+    //console.log( books[1].title + " " + books[0].Author)
+
+    //console.log("The first book in the Saga is" + books[0].title + " " + books[0].Author + " . ");
+
+
+
     /**
-     * TODO:
+     * TODO 5:
      * Loop through the books array and output the following information about
      * each book:
      * - the book number (use the index of the book in the array)
