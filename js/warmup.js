@@ -9,5 +9,7 @@
 
 //Write a function that when passed an array will return the longest string from the array.Example const arr = ["Green", "Blue", "Periwinkle"]; getLongestString(arr)// Returns "Periwinkle"
 
-function sports = ["Soccer", "Baseball", "Football", "Basketball"];
-console.log(sports.length);
+//function sports = ["Soccer", "Baseball", "Football", "Basketball"];
+//console.log(sports.length);
+
+//Write a function that takes in an array of objects and returns the object with the largest height property.

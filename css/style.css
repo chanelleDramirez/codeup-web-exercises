@@ -1,4 +1,9 @@
-body{
-    background-color:#006400;
+.background_image{
+    background-image: url(/img/2FD53FC000000578-0-image-a-24_1452069422426.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+
 
