@@ -13,3 +13,13 @@
 //console.log(sports.length);
 
 //Write a function that takes in an array of objects and returns the object with the largest height property.
+
+//Write FizzBuzz from 1-100;
+// -Numbers easily divisible by 3 should be replaced by Fizz
+// -Numbers easily divisible by 5 should be replaced by Buzz
+// -Numbers easily divisible by both 3 and 5 should be replaced by FizzBuzz
+// All other numbers should be printed in the console.
+
+let FizzBuzz = Number(){
+    if(Number % 3)
+}
