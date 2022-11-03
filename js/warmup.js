@@ -20,6 +20,9 @@
 // -Numbers easily divisible by both 3 and 5 should be replaced by FizzBuzz
 // All other numbers should be printed in the console.
 
-let FizzBuzz = Number(){
-    if(Number % 3)
-}
+//let FizzBuzz = Number(){
+  //  if(Number % 3)
+//}
+
+
+Write a function that takes in an array of objects and returns the average of the heightInMM properties from each object.
