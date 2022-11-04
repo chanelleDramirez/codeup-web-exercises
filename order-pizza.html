@@ -47,11 +47,9 @@
     <div class="jumbotron d-flex">
         <h1 class="text-center opacity-75" style="background-color: rgba(255,255,255,0.6);">Welcome to Pizza World!</h1>
     </div>
-
-
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <ul class="nav justify-content-start"><button class="nav-link active" id="Size and Crust-tab" data-bs-toggle="tab" data-bs-target="#Size and Crust" type="button" role="tab" aria-controls="Size and Crust" aria-selected="true"><span class="badge rounded-pill bg-secondary">1</span> Size and Crust</button>
+                <li class="nav justify-content-start"><button class="nav-link active" id="Size and Crust-tab" data-bs-toggle="tab" data-bs-target="#Size and Crust" type="button" role="tab" aria-controls="Size and Crust" aria-selected="true"><span class="badge rounded-pill bg-secondary">1</span> Size and Crust</button>
             </button>
 
             </li>
@@ -61,29 +59,72 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="Toppings-tab" data-bs-toggle="tab" data-bs-target="#Toppings" type="button" role="tab" aria-controls="Toppings" aria-selected="false"><span class="badge rounded-pill bg-secondary">3</span> Toppings</button>
             </li>
-        </ul>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 90rem;">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Choose Size and Crust</li>
+                        <li class="list-group-item active">Choose Size and Crust</li>
                         <li class="list-group-item">Hand Tossed</li>
                         <li class="list-group-item">Garlic seasoned with a rich, buttery taste.</li>
                         <li class="list-group-item">Small ("10")</li>
                         <li class="list-group-item">Medium ("12")</li>
                     </ul>
-                </div><br>
-                <div class="card" style="width: 18rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
+                </div>
+
+            <div class="card" style="width: 90rem;">
+                <div class="card-header">
+                    Crispy Thin
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Thin enough for optimum crispy to crunchy ratio </li>
+                    <li class="list-group-item">Medium ("12")</li>
+                    <li class="list-group-item">Large ("14")</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 90rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item active">Choose Cheese and Sauce</li>
+                    <li class="list-group-item">Cheese</li>
+                    <li class="list-group-item">How much?</li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbar Normal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Normal
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarNormal">
+                        <li><a class="dropdown-item" href="#">Light</a></li>
+                        <li><a class="dropdown-item" href="#">Normal</a></li>
+                        <li><a class="dropdown-item" href="#">Extra</a></li>
+                        <li><a class="dropdown-item" href="#">Double</a></li>
+                        <li><hr class="dropdown-divider"></li>
                     </ul>
-                </div><br>
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">1</div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
-        </div>
+                </ul>
+
+            </div>
+            <div class="card" style="width: 90rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item active">Sauce</li>
+                    <li class="list-group-item">What type?</li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tomato
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarNormal">
+                        <li><a class="dropdown-item" href="#">Light</a></li>
+                        <li><a class="dropdown-item" href="#">Normal</a></li>
+                        <li><a class="dropdown-item" href="#">Extra</a></li>
+                        <li><a class="dropdown-item" href="#">Double</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    <li class="list-group-item">How much?</li>
+                    <li class="list-group-item">Normal</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="card" style="width: 90rem;">
+                <ul class="list-group list-group-flush">
+                </ul>
+                <div class="card-footer">
+                    Card footer
+                </div>
+            </div>
+
+    </ul>
+
 </div>
 
 
