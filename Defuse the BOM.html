@@ -14,35 +14,34 @@
     "use strict";
 
     var detonationTimer = 5;
+    var count = 0;
 
     // TODO: This function needs to be called once every second
-    var intervalId = setInterval(function updateTimer() {
-        if (detonationTimer == 0) {
+    var intervalId = setInterval(function() {
+        if (count >= detonationTimer) {
             clearInterval(intervalId);
-            alert('EXTERMINATE!');
-            document.body.innerHTML = '';
-        } else if (detonationTimer > 0) {
-            document.getElementById('timer').innerHTML = detonationTimer;
-            console.log('once every second ' + detonationTimer);
+            console.log('EXTERMINATE!');
+        } else {
+            count++;
+            console.log('once every second ' + count);
         }
         detonationTimer;
     });
 
 
 
-    // TODO: When this function runs, it needs to
-    // cancel the interval/timeout for updateTimer()
-    var timeoutId = setTimeout(function defuseTheBOM() {
-        alert('Times almost up!');
-    }, timeoutId);
+    // TODO: When this function runs, it needs to cancel the interval/timeout for updateTimer()
+   var timeoutId = setTimeout(function defuseTheBOM() {
+       alert('Times almost up!');
+   }, timeoutId);
 
-    // Don't modify anything below this line!
-    //
-    // This causes the defuseTheBOM() function to be called
-    // when the "defuser" button is clicked.
-    // We will learn about events in the DOM lessons
-    var defuser = document.getElementById('defuser');
-    defuser.addEventListener('click', defuseTheBOM);
+   // Don't modify anything below this line!
+
+    //This causes the defuseTheBOM() function to be called
+   // when the "defuser" button is clicked.
+   // We will learn about events in the DOM lessons
+   var defuser = document.getElementById('defuser');
+   defuser.addEventListener('click', defuseTheBOM);
 })();
 </script>
 </body>
