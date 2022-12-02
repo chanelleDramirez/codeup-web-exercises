@@ -37,31 +37,51 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v9',
-        zoom: 15,
-        center: [-98.5986439,29.610335 ]
+        zoom: 10,
+        center: [-98.5986439,29.610335]
+           // [-98.4005074,29.5627028]
+       // [-98.3629824,29.5141376]
     });
 
-    var marker = new mapboxgl.Marker()
-        .setLngLat([-98.5986439, 29.610335])
-        .addTo(map);
+    var restaurants = [{name:"BakudanRamen",
+    location: [-98.5986439,29.610335],
+    description: "kidFriendly"},
+
+        {name:"54thStreetRestaurant&DraftHouse",
+    location:[-98.4005074,29.5627028],
+    description:"LargeMenu"},
+
+    {name:"RapidFirePizza",
+    location:[-98.3629824,29.5141376],
+    description:"DeliciousPizzaFromPizzaOven"},
+    ]
+    restaurants.forEach(function(restaurant){
+        var marker = new mapboxgl.Marker()
+            .setLngLat(restaurant.location)
+            .addTo(map);
+        var Popup = new mapboxgl.Popup()
+            .setHTML("<p>" + restaurant.name + "</p>")
+
+        marker.setPopup(Popup)
+    })
+
+
 
     // var popup = new mapboxgl.Popup()
     //         .setLngLat([-98.489615, 29.426827])
     //         .setHTML("<p>Codeup Rocks!</p>")
     //         .addTo(map)
 
-    var alamoPopup = new mapboxgl.Popup()
-        .setHTML("<p>Bakudan Ramen</p>")
 
-    marker.setPopup(alamoPopup)
 
-    geocode("San Antonio", mapBoxKey).then(function(results) {
-        console.log(results)
-    })
+     geocode("San Antonio", link).then(function(results) {
+         console.log(results)
+     })
 
-    reverseGeocode({lat: 32.77, lng: -96.79}, mapBoxKey).then(function(results) {
-        console.log(results)
-    })
+
+     reverseGeocode({lat: 29.610335, lng: -98.5986439}, link).then(function(results) {
+         console.log(results)
+     })
 
 </script>
 </body>
