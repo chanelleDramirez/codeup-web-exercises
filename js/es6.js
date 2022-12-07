@@ -66,15 +66,11 @@ users.forEach(function(user) {
   //       parameter definition
   const {name,   email, languages } = user;
 
-  // const name = user.name;
-  // const email = user.email;
-  // const languages = user.languages;
 
   // TODO: rewrite the assignment below to use template strings
   developers.push(`${name}'s email is ' ${email}  ${name} knows ${languages.join(', ')}.`);
 });
-  //developers.push(name + '\'s email is ' + email + name + ' knows ' + languages.join(', '));
-//});
+
 
 // TODO: Use `let` for the following variable
 let list = '<ul>';
@@ -89,6 +85,3 @@ list += '</ul>';
 
 document.getElementById("go-here").innerHTML =list;
 
-//   list += '<li>' + developer + '</li>';
-// });
-// list += '</ul>';
