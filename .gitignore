@@ -2,5 +2,8 @@
 *.iml
 .DS_STORE
 js/access-token.js
+var api = "39d4ce254bea6299ed932f2dc24245f9"  //Weather Map Project
+var token = "pk.eyJ1IjoiY2hhbmVsbGVyYW1pcmV6IiwiYSI6ImNsYjQzODczeTA0bjgzcmwwM2duejFidTkifQ.CxM9hQeZsjYWhK6rQdI5Mw"
+// Weather Map
 
-
+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 // git hub api for promises exercise
