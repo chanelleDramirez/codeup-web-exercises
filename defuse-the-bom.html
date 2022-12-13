@@ -17,31 +17,20 @@
     var count = 0;
 
     // TODO: This function needs to be called once every second
-    var intervalId = setInterval(function() {
-        if (count >= detonationTimer) {
-            clearInterval(intervalId);
-            console.log('EXTERMINATE!');
-        } else {
-            count++;
-            console.log('once every second ' + count);
-        }
-        detonationTimer;
-    });
 
+    setInterval(function () {detonationTimer.innerHTML += "Hello"}, 1000);
 
 
     // TODO: When this function runs, it needs to cancel the interval/timeout for updateTimer()
-   var timeoutId = setTimeout(function defuseTheBOM() {
-       alert('Times almost up!');
-   }, timeoutId);
+    var count = 0
+   var timeoutId = setTimeout(function() {
 
-   // Don't modify anything below this line!
-
+   } ,count);
+    // Don't modify anything below this line!
     //This causes the defuseTheBOM() function to be called
    // when the "defuser" button is clicked.
    // We will learn about events in the DOM lessons
-   var defuser = document.getElementById('defuser');
-   defuser.addEventListener('click', defuseTheBOM);
+
 })();
 </script>
 </body>
